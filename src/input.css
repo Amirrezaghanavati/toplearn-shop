@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'IranNastaliq';
+    src: url('../src/fonts/IranNastaliq.eot') format("eof");
+    src: url('../src/fonts/IranNastaliq.ttf') format('ttf');
+    src: url('../src/fonts/IranNastaliq.woff') format('woff');
+}
+
+body {
+    font-family: Vazirmatn, sans-serif;
+}
+
+
+/* body {
+    font-family: "IranNastaliq";
+} */
