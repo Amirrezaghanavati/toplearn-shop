@@ -568,6 +568,10 @@ video {
   margin-top: 0.5rem;
 }
 
+.mr-auto {
+  margin-right: auto;
+}
+
 .flex {
   display: flex;
 }
@@ -590,6 +594,10 @@ video {
 
 .justify-start {
   justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .space-x-3 > :not([hidden]) ~ :not([hidden]) {
@@ -694,6 +702,16 @@ video {
   padding-right: 1rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .pl-3 {
   padding-left: 0.75rem;
 }
@@ -713,6 +731,38 @@ video {
           padding-inline-end: 1rem;
 }
 
+.pt-28 {
+  padding-top: 7rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -721,6 +771,47 @@ video {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.leading-relaxed {
+  line-height: 1.625;
+}
+
+.leading-4 {
+  line-height: 1rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
+.leading-10 {
+  line-height: 2.5rem;
 }
 
 .text-white {
@@ -776,6 +867,11 @@ body {
     font-size: 1rem;
     line-height: 1.5rem;
   }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -787,6 +883,14 @@ body {
     display: none;
   }
 
+  .lg\:w-2\/5 {
+    width: 40%;
+  }
+
+  .lg\:w-3\/5 {
+    width: 60%;
+  }
+
   .lg\:justify-between {
     justify-content: space-between;
   }
@@ -795,6 +899,16 @@ body {
     --tw-divide-x-reverse: 0;
     border-right-width: calc(0px * var(--tw-divide-x-reverse));
     border-left-width: calc(0px * calc(1 - var(--tw-divide-x-reverse)));
+  }
+
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .after\:lg\:hidden::after {
