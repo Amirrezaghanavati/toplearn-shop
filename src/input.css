@@ -39,7 +39,29 @@ body {
 			#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
 			#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet{
 				color: #2b6cb0;  /*Set to match the Tailwind colour you want the active one to be */
-			}
+}
+
+.last-courses-heading::before{
+	content: "";
+	width: 2000px;
+	height: 5px;
+	border-radius: 25px;
+	background-color: rgb(0,191,254,0.2);;
+	position: absolute;
+	right: -1990px;
+	bottom: 10px;
+}
+
+.last-courses-heading::after{
+	content: "";
+	width: 30px;
+	height: 5px;
+	border-radius: 25px;
+	background-color: #00b3e9;
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+}
 
 
 /* body {

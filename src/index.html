@@ -17,7 +17,7 @@
 
 
     <!-- start header -->
-    <header class="bg-[url('../src/images/landing.jpg')] text-white">
+    <header class="bg-[url('../src/images/landing.jpg')] text-white pb-10">
 
         <!-- start logo and menu section -->
         <section class="container mx-auto flex justify-start lg:justify-between py-6 items-center px-5 lg:px-0">
@@ -69,12 +69,13 @@
             <input type="text"
                 class="w-3/4 lg:w-2/5 h-12 rounded-full pr-6 ring-8 ring-slate-400/10 placeholder-slate-600 focus:outline-none text-slate-950"
                 placeholder="چی میخوای یاد بگیری ؟">
-                <i class="fa fa-search -m-9 text-sky-400 text-lg hover:text-slate-700 hover:transition-all ease-in-out"></i>
+            <i class="fa fa-search -m-9 text-sky-400 text-lg hover:text-slate-700 hover:transition-all ease-in-out"></i>
         </section>
         <!-- finish input box searching -->
 
         <!-- start svg and icons -->
-        <section class="hidden lg:flex lg:justify-center lg:items-center lg:text-center lg:pb-2 lg:space-x-24 lg:flex-row-reverse">
+        <section
+            class="hidden lg:flex lg:justify-center lg:items-center lg:text-center lg:pb-2 lg:space-x-24 lg:flex-row-reverse">
             <div class="text-white">
                 <div>
                     <img src="./images/stat-student.png" alt="دانشجویان" class="w-32 h-32">
@@ -131,34 +132,37 @@
         <!-- end menu -->
 
         <!-- start carousel -->
-        <section class="container mx-auto pt-2 pb-28">
-            <div class="carousel relative shadow-2xl bg-white">
+        <section class="container mx-auto pt-2 pb-16 ">
+            <div class="carousel relative shadow-2xl bg-white rounded-lg">
                 <div class="carousel-inner relative overflow-hidden w-full">
                     <!--Slide 1-->
-                    <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
-                        checked="checked">
+                    <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true"
+                        hidden="" checked="checked">
                     <div class="carousel-item absolute opacity-0">
                         <div class="block h-full w-ful text-white text-5xl text-center">
-                            <img src="https://toplearn.com/img/Banner/%D9%86%DB%8C%D9%85_%D8%A8%D9%87%D8%A7_%D8%B4%D8%AF%D9%86_%D8%A7%D8%A7%DB%8C%D9%86%D8%AA%D8%B1%D9%86%D8%AA_%D8%AA%D8%A7%D9%BE_%D9%84%D8%B1%D9%86.jpg?v=pNkMpZImSlFwoFVwbg5lSy4bilS5m5WpqYvh-ge4vnk" alt="" class="w-full rounded-lg">
+                            <img src="https://toplearn.com/img/Banner/%D9%86%DB%8C%D9%85_%D8%A8%D9%87%D8%A7_%D8%B4%D8%AF%D9%86_%D8%A7%D8%A7%DB%8C%D9%86%D8%AA%D8%B1%D9%86%D8%AA_%D8%AA%D8%A7%D9%BE_%D9%84%D8%B1%D9%86.jpg?v=pNkMpZImSlFwoFVwbg5lSy4bilS5m5WpqYvh-ge4vnk"
+                                alt="" class="w-full rounded-lg">
                         </div>
                     </div>
                     <label for="carousel-3"
                         class="prev control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">›</label>
                     <label for="carousel-2"
                         class="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">‹</label>
-            
+
                     <!--Slide 2-->
-                    <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                    <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true"
+                        hidden="">
                     <div class="carousel-item absolute opacity-0">
                         <div class="block h-full w-full text-white text-5xl text-center">
-                            <img src="https://toplearn.com/img/Banner/%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87_%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF_%D9%85%D8%AF%D8%A7%D8%A6%D9%86%DB%8C.jpg?v=5CL08fb3cKLTTUpmR9ApqGSKgZ80SKjFh9nFQujPpFo" alt="" class="w-full rounded-lg">
+                            <img src="https://toplearn.com/img/Banner/%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87_%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF_%D9%85%D8%AF%D8%A7%D8%A6%D9%86%DB%8C.jpg?v=5CL08fb3cKLTTUpmR9ApqGSKgZ80SKjFh9nFQujPpFo"
+                                alt="" class="w-full rounded-lg">
                         </div>
                     </div>
                     <label for="carousel-1"
                         class="prev control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto">›</label>
                     <label for="carousel-3"
                         class="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto">‹</label>
-            
+
                     <!-- Add additional indicators for each slide-->
                     <ol class="carousel-indicators">
                         <li class="inline-block mr-3">
@@ -175,8 +179,19 @@
         </section>
         <!-- end carousel -->
 
-        
-
+        <!-- start last courses -->
+        <section class="last-courses">
+            <header class="container mx-auto flex justify-between items-center pb-16">
+                <div>
+                    <h3 class="font-medium text-md lg:text-xl last-courses-heading relative ps-14">آخرین دوره های تاپ لرن</h3>
+                </div>
+                <div class="flex items-center space-x-2 space-x-reverse">
+                    <h6 class="font-medium text-sm lg:text-md text-slate-500">مشاهده همه دوره ها</h6>
+                    <i class="fa fa-arrow-left text-sky-300"></i>
+                </div>
+            </header>
+        </section>
+        <!-- finish last courses -->
     </main>
 
     <footer></footer>

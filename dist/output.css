@@ -769,12 +769,12 @@ video {
   padding-bottom: 3rem;
 }
 
-.pb-20 {
-  padding-bottom: 5rem;
+.pb-16 {
+  padding-bottom: 4rem;
 }
 
-.pb-28 {
-  padding-bottom: 7rem;
+.pb-20 {
+  padding-bottom: 5rem;
 }
 
 .pb-5 {
@@ -800,6 +800,20 @@ video {
 
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.ps-20 {
+  -webkit-padding-start: 5rem;
+          padding-inline-start: 5rem;
+}
+
+.ps-14 {
+  -webkit-padding-start: 3.5rem;
+          padding-inline-start: 3.5rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .text-center {
@@ -840,6 +854,10 @@ video {
   font-weight: 700;
 }
 
+.font-medium {
+  font-weight: 500;
+}
+
 .leading-10 {
   line-height: 2.5rem;
 }
@@ -853,9 +871,19 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.text-sky-300 {
+  --tw-text-opacity: 1;
+  color: rgb(125 211 252 / var(--tw-text-opacity));
+}
+
 .text-sky-400 {
   --tw-text-opacity: 1;
   color: rgb(56 189 248 / var(--tw-text-opacity));
+}
+
+.text-slate-400 {
+  --tw-text-opacity: 1;
+  color: rgb(148 163 184 / var(--tw-text-opacity));
 }
 
 .text-slate-950 {
@@ -866,6 +894,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-slate-500 {
+  --tw-text-opacity: 1;
+  color: rgb(100 116 139 / var(--tw-text-opacity));
 }
 
 .placeholder-slate-600::-moz-placeholder {
@@ -952,6 +985,28 @@ body {
 			#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet{
   color: #2b6cb0;
   /*Set to match the Tailwind colour you want the active one to be */
+}
+
+.last-courses-heading::before{
+  content: "";
+  width: 2000px;
+  height: 5px;
+  border-radius: 25px;
+  background-color: rgb(0,191,254,0.2);
+  position: absolute;
+  right: -1990px;
+  bottom: 10px;
+}
+
+.last-courses-heading::after{
+  content: "";
+  width: 30px;
+  height: 5px;
+  border-radius: 25px;
+  background-color: #00b3e9;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
 }
 
 /* body {
@@ -1081,5 +1136,10 @@ body {
   .lg\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
